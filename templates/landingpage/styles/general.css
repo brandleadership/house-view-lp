@@ -1,0 +1,181 @@
+:root {
+    --royalBlue: #141e55;
+    --reflexBlue: #001489;
+    --black: #000000;
+    --grey: #eeeeee;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Verlag SSm Book', sans-serif;
+}
+body {
+    font-family: 'Verlag SSm Book', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Verlag SSm Book', sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: 'Verlag SSm Book', sans-serif;
+}
+
+@font-face {
+    font-family: 'VerlagSSm-Light';
+    src: url('../../../assets/fonts/VerlagSSm-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag SSm Light';
+    src: url('../../../assets/fonts/VerlagSSm-Light.eot?#iefix');
+    src: url('../../../assets/fonts/VerlagSSm-Light.eot?#iefix') format('eot'),
+        url('../../../assets/fonts/VerlagSSm-Light.woff2') format('woff2'),
+        url('../../../assets/fonts/VerlagSSm-Light.woff') format('woff'),
+        url('../../../assets/fonts/VerlagSSm-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagText-Light';
+    src: url('../../../assets/fonts/VerlagText-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag SSm Light';
+    src: url('../../../assets/fonts/VerlagSSm-Light.eot?#iefix');
+    src: url('../../../assets/fonts/VerlagSSm-Light.eot?#iefix') format('eot'),
+        url('../../../assets/fonts/VerlagSSm-Light.woff2') format('woff2'),
+        url('../../../assets/fonts/VerlagSSm-Light.woff') format('woff'),
+        url('../../../assets/fonts/VerlagSSm-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagSSm-Light';
+    src: url('../../../assets/fonts/VerlagSSm-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagText-Light';
+    src: url('../../../assets/fonts/VerlagText-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagText-Book';
+    src: url('../../../assets/fonts/VerlagText-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagOffice-Regular';
+    src: url('../../../assets/fonts/VerlagOffice-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagText-Book';
+    src: url('../../../assets/fonts/VerlagText-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagSSm-Bold';
+    src: url('../../../assets/fonts/VerlagSSm-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagSSm-Bold';
+    src: url('../../../assets/fonts/VerlagSSm-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagText-Bold';
+    src: url('../../../assets/fonts/VerlagText-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagOffice-Bold';
+    src: url('../../../assets/fonts/VerlagOffice-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VerlagText-Bold';
+    src: url('../../../assets/fonts/VerlagText-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag SSm Bold';
+    src: url('../../../assets/fonts/VerlagSSm-Bold.eot?#iefix');
+    src: url('../../../assets/fonts/VerlagSSm-Bold.eot?#iefix') format('eot'),
+        url('../../../assets/fonts/VerlagSSm-Bold.woff2') format('woff2'),
+        url('../../../assets/fonts/VerlagSSm-Bold.woff') format('woff'),
+        url('../../../assets/fonts/VerlagSSm-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag SSm Bold';
+    src: url('../../../assets/fonts/VerlagSSm-Bold.eot?#iefix');
+    src: url('../../../assets/fonts/VerlagSSm-Bold.eot?#iefix') format('eot'),
+        url('../../../assets/fonts/VerlagSSm-Bold.woff2') format('woff2'),
+        url('../../../assets/fonts/VerlagSSm-Bold.woff') format('woff'),
+        url('../../../assets/fonts/VerlagSSm-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag SSm Book';
+    src: url('../../../assets/fonts/VerlagSSm-Book.eot?#iefix');
+    src: url('../../../assets/fonts/VerlagSSm-Book.eot?#iefix') format('eot'),
+        url('../../../assets/fonts/VerlagSSm-Book.woff2') format('woff2'),
+        url('../../../assets/fonts/VerlagSSm-Book.woff') format('woff'),
+        url('../../../assets/fonts/VerlagSSm-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag SSm Book';
+    src: url('../../../assets/fonts/VerlagSSm-Book.eot?#iefix');
+    src: url('../../../assets/fonts/VerlagSSm-Book.eot?#iefix') format('eot'),
+        url('../../../assets/fonts/VerlagSSm-Book.woff2') format('woff2'),
+        url('../../../assets/fonts/VerlagSSm-Book.woff') format('woff'),
+        url('../../../assets/fonts/VerlagSSm-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
