@@ -1,0 +1,17 @@
+<div
+  data-bsi-element="vote-result"
+  class="vote-wrapper"
+>
+  <img
+    width="16"
+    class="vote-image"
+    src="{{ src ? : bsi_cx_asset('../../../../../assets/icons/check.svg') }}"
+    alt="Check Image"
+  >
+  <div
+    data-bsi-element-part="formatted-text"
+    class="vote-text"
+  >
+    {{ text ? : '43 people voted on this topic' }}
+  </div>
+</div>

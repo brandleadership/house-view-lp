@@ -1,0 +1,16 @@
+.vote-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vote-text {
+    padding-left: 10px;
+    font-size: 19px;
+    line-height: 34px;
+    color: var(--royalblue);
+}
+
+.vote-image {
+    width: 30px;
+}

@@ -1,0 +1,52 @@
+<section
+  data-bsi-element="house-view-vote-block"
+  class="house-view-vote-wrapper"
+>
+  <div class="row center-xs">
+    <div class="col-md-8 col-sm-12 col-xs-12">
+      <div class="title-vote-wrapper">
+        {%
+          include '../subheading/template.twig' with {
+          subheading: 'We would love to hear your opinion: Where do you see most potential?'
+          }
+        %}
+      </div>
+
+      <div
+        class="house-view-vote-list"
+        data-bsi-dropzone="button-vote-dropzone"
+      >
+        {%
+          include '../house-view-button/template.twig' with {
+          _text: 'European stocks {vote}'
+          }
+        %}
+        {%
+          include '../house-view-button/template.twig' with {
+          _text: 'Luxury stocks {vote}'
+          }
+        %}
+        {%
+          include '../house-view-button/template.twig' with {
+          _text: 'High dividend stocks {vote}'
+          }
+        %}
+        {%
+          include '../house-view-button/template.twig' with {
+          _text: 'Industrial stocks {vote}'
+          }
+        %}
+      </div>
+      <div
+        class="result-wrapper"
+        data-bsi-dropzone="vote-result"
+      >
+        {%
+          include '../vote-result/template.twig' with {
+          text: '43 people voted on this topic'
+          }
+        %}
+      </div>
+    </div>
+  </div>
+</section>
