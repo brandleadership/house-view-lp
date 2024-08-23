@@ -179,3 +179,7 @@ button {
     font-weight: normal;
     font-style: normal;
 }
+
+p {
+    margin: 0;
+}
