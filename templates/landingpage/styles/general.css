@@ -4,6 +4,20 @@
   --black: #000000;
   --grey: #eeeeee;
   --white: #ffffff;
+
+  --royalblue: #141e55;
+  --reflexblue: #001489;
+  --lightblue: #b8c0e8;
+  --grey: #f1f2f2;
+  --accordionBGC: rgba(20, 30, 85, 0.1);
+  --wide: 80%;
+  --contentWidth: 590px;
+  --contentWidthTablet: calc(100% - 110px);
+  --textWidthTablet: calc(100% - 320px);
+  --textWidthDesktop: calc(100% - 430px);
+  --contentWidthMobile: calc(100% - 32px);
+  --normalWidthText: 768px;
+  --card-bgc: #434b77;
 }
 
 * {
@@ -11,6 +25,8 @@
   font-family: "Verlag SSm Book", sans-serif;
 }
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Verlag SSm Book", sans-serif;
 }
 
@@ -193,7 +209,6 @@ p {
 .house-view-result-wrapper,
 .house-view-vote-wrapper {
   max-width: 900px;
-  width: 100%;
   margin: auto;
 }
 
@@ -201,6 +216,7 @@ p {
   .house-view-result-wrapper,
   .house-view-vote-wrapper {
     margin: auto;
-    max-width: calc(100% -32px);
+    max-width: var(--contentWidthMobile);
+    width: var(--contentWidthMobile);
   }
 }
