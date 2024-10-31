@@ -3,8 +3,8 @@ require("./styles/styles.scss");
 const { cx, Locale } = require("@bsi-cx/design-build");
 
 module.exports = cx.design
-  .withTitle("Landingpage Scaffold")
-  .withAuthor("BSI Business Systems Integration AG")
+  .withTitle("Landingpage for House View")
+  .withAuthor("GateB AG")
   .withDate("20.05.2022")
   .withPreviewImage("static/preview.png")
   .withDefaultLocale(Locale.EN)
